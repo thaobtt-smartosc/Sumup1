@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Verify Magento ]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Test Login(failed)">
+    <classes>
+      <class name="testcases.LoginPageTest">
+        <methods>
+          <include name="testLoginWithInvalidEmail" invocation-numbers="0 1"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="testLoginSuccessfull" invocation-numbers="0"/>
+          <include name="preCondition"/>
+          <include name="testLoginWithInvalidPass" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test Login(failed) -->
+</suite> <!-- Failed suite [Verify Magento ] -->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Magento " thread-count="1" parallel="tests" >
+<test name="Test Login">
+   <classes>
+      <class name="testcases.LoginPageTest"/>
+    </classes>
+  </test> 
+<test name="Test Logout">
+   <classes>
+      <class name="testcases.LogoutPageTest"/>
+    </classes>
+  </test>
+<test name="Test Signup">
+   <classes>
+      <class name="testcases.SignupPageTest"/>
+    </classes>
+  </test>
+ <test name="Test HomePage">
+   <classes>
+      <class name="testcases.HomePageTest"/>
+    </classes>
+  </test>
+ 
+ <test name="Test My Account">
+   <classes>
+      <class name="testcases.MyAccountPageTest"/>
+    </classes>
+  </test>
+ <test name="Test Wishlist Page">
+   <classes>
+      <class name="testcases.WishlistPageTest"/>
+    </classes>
+  </test>  
+ <test name="Test Category Page">
+   <classes>
+      <class name="testcases.CategoryPageTest"/>
+    </classes>
+  </test>
+  <test name="Test Checkout Page">
+   <classes>
+      <class name="testcases.CheckoutPageTest"/>
+    </classes>
+  </test>
+ 
+</suite>

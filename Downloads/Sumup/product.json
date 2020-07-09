@@ -1,0 +1,18 @@
+{
+	"product1":{
+		"url":"https://demo.smartosc.com/olivia-1-4-zip-light-jacket.html",
+		"name":"Olivia 1/4 Zip Light Jacket",
+		"price":"77,00 US$",
+		"color":"Purple",
+		"size":"XS"
+		}	,
+		
+		"product2":{
+		"url":"https://demo.smartosc.com/juno-jacket.html",
+		"name":"Juno Jacket",
+		"price":"77,00 US$",
+		"color":"Blue",
+		"size":"XS"
+		}
+			
+}

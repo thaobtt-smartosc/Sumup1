@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Test_logout]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="ChromeTest(failed)">
+    <classes>
+      <class name="testcases.LogoutPageTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="preCondition"/>
+          <include name="testLogout"/>
+        </methods>
+      </class> <!-- testcases.LogoutPageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Test_logout] -->

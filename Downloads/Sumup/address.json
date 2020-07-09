@@ -1,0 +1,12 @@
+{
+  "default_address": {
+    "firstName":"thao",
+    "lastName":"btt",
+    "street":"Cau Giay",
+    "city":"Ha Noi",
+    "state":"Alaska",
+    "zipCode":"12345",
+    "country":"Hoa Kỳ",
+    "phoneNumber":"123456789"
+  }
+}
